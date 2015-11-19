@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+  <script src="js/beacon-code.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no
+		initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>Eddystone Demo</title>
+
+	<script>
+	// Redirect console.log when running from Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+
+	<style>
+	body
+	{
+		font-family: sans-serif;
+	}
+
+	h1
+	{
+		margin-right:110px;
+	}
+
+	.evo-image
+	{
+		position:fixed;
+		right:5px;
+		top:5px;
+		width:100px;
+		height:100px;
+		background:white;
+	}
+
+	</style>
+</head>
+
+<body>
+
+	<img class="evo-image" src="http://i.giphy.com/l41lSDxKOXfgyjgJi.gif" />
+
+	<h1>Eddystone Demo</h1>
+
+
+	<p id="message">Preparing...</p>
+
+	<div id="found-beacons"></div>
+
+	<!--
+	Including cordova.js will automatically include the JavaScript library
+	for Eddystone.
+	-->
+	<script src="cordova.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-ble": {
+            "PACKAGE_NAME": "com.kriziasdomain.mybeaconapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.kriziasdomain.mybeaconapp"
+        },
+        "cordova-plugin-eddystone": {
+            "PACKAGE_NAME": "com.kriziasdomain.mybeaconapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.kriziasdomain.mybeaconapp"
+        }
+    },
+    "dependent_plugins": {}
+}
